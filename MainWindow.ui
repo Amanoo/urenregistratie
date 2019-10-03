@@ -22,6 +22,7 @@
       </property>
       <widget class="QWidget" name="layoutWidget">
        <layout class="QVBoxLayout" name="verticalLayout_4">
+
         <item>
          <layout class="QGridLayout" name="gridLayout_5">
           <item row="1" column="0" colspan="3">
@@ -161,6 +162,7 @@
           </item>
          </layout>
         </item>
+
         <item>
          <widget class="Line" name="line_2">
           <property name="orientation">
@@ -168,6 +170,7 @@
           </property>
          </widget>
         </item>
+
        </layout>
       </widget>
       <widget class="QWidget" name="layoutWidget">
@@ -297,10 +300,7 @@
           </item>
          </layout>
         </item>
-       </layout>
-      </widget>
-     </widget>
-    </item>
+       
     <item>
      <widget class="QGroupBox" name="groupBox">
       <property name="title">
@@ -352,6 +352,12 @@
       </layout>
      </widget>
     </item>
+
+</layout>
+      </widget>
+     </widget>
+    </item>
+
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
