@@ -22,7 +22,6 @@
       </property>
       <widget class="QWidget" name="layoutWidget">
        <layout class="QVBoxLayout" name="verticalLayout_4">
-
         <item>
          <layout class="QGridLayout" name="gridLayout_5">
           <item row="1" column="0" colspan="3">
@@ -162,7 +161,6 @@
           </item>
          </layout>
         </item>
-
         <item>
          <widget class="Line" name="line_2">
           <property name="orientation">
@@ -170,7 +168,6 @@
           </property>
          </widget>
         </item>
-
        </layout>
       </widget>
       <widget class="QWidget" name="layoutWidget">
@@ -261,6 +258,13 @@
             </item>
             <item>
              <layout class="QGridLayout" name="gridLayout_4">
+              <item row="1" column="2">
+               <widget class="QToolButton" name="toolButton_2">
+                <property name="text">
+                 <string>&gt;</string>
+                </property>
+               </widget>
+              </item>
               <item row="1" column="0">
                <widget class="QToolButton" name="toolButton">
                 <property name="text">
@@ -271,28 +275,12 @@
               <item row="0" column="0" colspan="3">
                <widget class="QLineEdit" name="lineEdit_5"/>
               </item>
-              <item row="1" column="2">
-               <widget class="QToolButton" name="toolButton_2">
+              <item row="1" column="1">
+               <widget class="QToolButton" name="toolButton_3">
                 <property name="text">
-                 <string>&gt;</string>
+                 <string>Huidig</string>
                 </property>
                </widget>
-              </item>
-              <item row="1" column="1">
-               <spacer name="horizontalSpacer_2">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
               </item>
              </layout>
             </item>
@@ -300,64 +288,61 @@
           </item>
          </layout>
         </item>
-       
-    <item>
-     <widget class="QGroupBox" name="groupBox">
-      <property name="title">
-       <string>Uren</string>
-      </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>iPaddy</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>Telepunt</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>Totaal</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLineEdit" name="lineEdit">
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_2">
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QLineEdit" name="lineEdit_3">
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-
-</layout>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Uren</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>iPaddy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Telepunt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Totaal</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lineEdit_2">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="lineEdit_3">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
     </item>
-
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
