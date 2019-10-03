@@ -20,7 +20,7 @@
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <layout class="QGridLayout" name="gridLayout_5">
         <item row="2" column="0">
          <spacer name="horizontalSpacer">
@@ -94,9 +94,6 @@
             </property>
            </widget>
           </item>
-          <item row="1" column="0">
-           <widget class="QLineEdit" name="lineEdit_4"/>
-          </item>
           <item row="1" column="3">
            <widget class="QTimeEdit" name="timeEdit">
             <property name="displayFormat">
@@ -104,7 +101,7 @@
             </property>
            </widget>
           </item>
-          <item row="1" column="1">
+          <item row="1" column="0">
            <spacer name="horizontalSpacer_3">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
@@ -124,6 +121,13 @@
             </property>
            </widget>
           </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </item>
         <item row="2" column="1">
@@ -135,7 +139,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
          <widget class="QListView" name="listView"/>
@@ -255,7 +259,7 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>iPoddy</string>
+          <string>iPaddy</string>
          </property>
         </widget>
        </item>
@@ -305,17 +309,35 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>29</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuBestand">
     <property name="title">
      <string>Bestand</string>
     </property>
+    <addaction name="actionNieuw"/>
+    <addaction name="actionOpenen"/>
+    <addaction name="actionExporteren_naar_Excel"/>
    </widget>
    <addaction name="menuBestand"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNieuw">
+   <property name="text">
+    <string>Nieuw</string>
+   </property>
+  </action>
+  <action name="actionOpenen">
+   <property name="text">
+    <string>Openen</string>
+   </property>
+  </action>
+  <action name="actionExporteren_naar_Excel">
+   <property name="text">
+    <string>Exporteren naar Excel</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
